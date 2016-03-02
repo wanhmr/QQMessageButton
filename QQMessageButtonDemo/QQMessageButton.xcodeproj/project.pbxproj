@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F048B50A1C8527CE00277E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048B5091C8527CE00277E04 /* AppDelegate.swift */; };
+		F048B50C1C8527CE00277E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048B50B1C8527CE00277E04 /* ViewController.swift */; };
+		F048B50F1C8527CE00277E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048B50D1C8527CE00277E04 /* Main.storyboard */; };
+		F048B5111C8527CE00277E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F048B5101C8527CE00277E04 /* Assets.xcassets */; };
+		F048B5141C8527CE00277E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048B5121C8527CE00277E04 /* LaunchScreen.storyboard */; };
+		F048B51F1C8527CE00277E04 /* QQMessageButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048B51E1C8527CE00277E04 /* QQMessageButtonTests.swift */; };
+		F048B52A1C8527CE00277E04 /* QQMessageButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048B5291C8527CE00277E04 /* QQMessageButtonUITests.swift */; };
+		F048B5381C85281400277E04 /* QQMessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048B5371C85281400277E04 /* QQMessageButton.swift */; };
+		F048B53B1C85BECF00277E04 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048B53A1C85BECF00277E04 /* UIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F048B51B1C8527CE00277E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F048B4FE1C8527CE00277E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F048B5051C8527CE00277E04;
+			remoteInfo = QQMessageButton;
+		};
+		F048B5261C8527CE00277E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F048B4FE1C8527CE00277E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F048B5051C8527CE00277E04;
+			remoteInfo = QQMessageButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F048B5061C8527CE00277E04 /* QQMessageButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMessageButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048B5091C8527CE00277E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F048B50B1C8527CE00277E04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F048B50E1C8527CE00277E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F048B5101C8527CE00277E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F048B5131C8527CE00277E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F048B5151C8527CE00277E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F048B51A1C8527CE00277E04 /* QQMessageButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMessageButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048B51E1C8527CE00277E04 /* QQMessageButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQMessageButtonTests.swift; sourceTree = "<group>"; };
+		F048B5201C8527CE00277E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F048B5251C8527CE00277E04 /* QQMessageButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMessageButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048B5291C8527CE00277E04 /* QQMessageButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQMessageButtonUITests.swift; sourceTree = "<group>"; };
+		F048B52B1C8527CE00277E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F048B5371C85281400277E04 /* QQMessageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQMessageButton.swift; sourceTree = "<group>"; };
+		F048B53A1C85BECF00277E04 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F048B5031C8527CE00277E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048B5171C8527CE00277E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048B5221C8527CE00277E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F048B4FD1C8527CE00277E04 = {
+			isa = PBXGroup;
+			children = (
+				F048B5081C8527CE00277E04 /* QQMessageButton */,
+				F048B51D1C8527CE00277E04 /* QQMessageButtonTests */,
+				F048B5281C8527CE00277E04 /* QQMessageButtonUITests */,
+				F048B5071C8527CE00277E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F048B5071C8527CE00277E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F048B5061C8527CE00277E04 /* QQMessageButton.app */,
+				F048B51A1C8527CE00277E04 /* QQMessageButtonTests.xctest */,
+				F048B5251C8527CE00277E04 /* QQMessageButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F048B5081C8527CE00277E04 /* QQMessageButton */ = {
+			isa = PBXGroup;
+			children = (
+				F048B5091C8527CE00277E04 /* AppDelegate.swift */,
+				F048B50B1C8527CE00277E04 /* ViewController.swift */,
+				F048B50D1C8527CE00277E04 /* Main.storyboard */,
+				F048B5101C8527CE00277E04 /* Assets.xcassets */,
+				F048B5121C8527CE00277E04 /* LaunchScreen.storyboard */,
+				F048B5151C8527CE00277E04 /* Info.plist */,
+				F048B5371C85281400277E04 /* QQMessageButton.swift */,
+				F048B53A1C85BECF00277E04 /* UIViewExtension.swift */,
+			);
+			path = QQMessageButton;
+			sourceTree = "<group>";
+		};
+		F048B51D1C8527CE00277E04 /* QQMessageButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F048B51E1C8527CE00277E04 /* QQMessageButtonTests.swift */,
+				F048B5201C8527CE00277E04 /* Info.plist */,
+			);
+			path = QQMessageButtonTests;
+			sourceTree = "<group>";
+		};
+		F048B5281C8527CE00277E04 /* QQMessageButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F048B5291C8527CE00277E04 /* QQMessageButtonUITests.swift */,
+				F048B52B1C8527CE00277E04 /* Info.plist */,
+			);
+			path = QQMessageButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F048B5051C8527CE00277E04 /* QQMessageButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F048B52E1C8527CE00277E04 /* Build configuration list for PBXNativeTarget "QQMessageButton" */;
+			buildPhases = (
+				F048B5021C8527CE00277E04 /* Sources */,
+				F048B5031C8527CE00277E04 /* Frameworks */,
+				F048B5041C8527CE00277E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQMessageButton;
+			productName = QQMessageButton;
+			productReference = F048B5061C8527CE00277E04 /* QQMessageButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F048B5191C8527CE00277E04 /* QQMessageButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F048B5311C8527CE00277E04 /* Build configuration list for PBXNativeTarget "QQMessageButtonTests" */;
+			buildPhases = (
+				F048B5161C8527CE00277E04 /* Sources */,
+				F048B5171C8527CE00277E04 /* Frameworks */,
+				F048B5181C8527CE00277E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F048B51C1C8527CE00277E04 /* PBXTargetDependency */,
+			);
+			name = QQMessageButtonTests;
+			productName = QQMessageButtonTests;
+			productReference = F048B51A1C8527CE00277E04 /* QQMessageButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F048B5241C8527CE00277E04 /* QQMessageButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F048B5341C8527CE00277E04 /* Build configuration list for PBXNativeTarget "QQMessageButtonUITests" */;
+			buildPhases = (
+				F048B5211C8527CE00277E04 /* Sources */,
+				F048B5221C8527CE00277E04 /* Frameworks */,
+				F048B5231C8527CE00277E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F048B5271C8527CE00277E04 /* PBXTargetDependency */,
+			);
+			name = QQMessageButtonUITests;
+			productName = QQMessageButtonUITests;
+			productReference = F048B5251C8527CE00277E04 /* QQMessageButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F048B4FE1C8527CE00277E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tpphha;
+				TargetAttributes = {
+					F048B5051C8527CE00277E04 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F048B5191C8527CE00277E04 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F048B5051C8527CE00277E04;
+					};
+					F048B5241C8527CE00277E04 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F048B5051C8527CE00277E04;
+					};
+				};
+			};
+			buildConfigurationList = F048B5011C8527CE00277E04 /* Build configuration list for PBXProject "QQMessageButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F048B4FD1C8527CE00277E04;
+			productRefGroup = F048B5071C8527CE00277E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F048B5051C8527CE00277E04 /* QQMessageButton */,
+				F048B5191C8527CE00277E04 /* QQMessageButtonTests */,
+				F048B5241C8527CE00277E04 /* QQMessageButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F048B5041C8527CE00277E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048B5141C8527CE00277E04 /* LaunchScreen.storyboard in Resources */,
+				F048B5111C8527CE00277E04 /* Assets.xcassets in Resources */,
+				F048B50F1C8527CE00277E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048B5181C8527CE00277E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048B5231C8527CE00277E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F048B5021C8527CE00277E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048B50C1C8527CE00277E04 /* ViewController.swift in Sources */,
+				F048B5381C85281400277E04 /* QQMessageButton.swift in Sources */,
+				F048B53B1C85BECF00277E04 /* UIViewExtension.swift in Sources */,
+				F048B50A1C8527CE00277E04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048B5161C8527CE00277E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048B51F1C8527CE00277E04 /* QQMessageButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048B5211C8527CE00277E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048B52A1C8527CE00277E04 /* QQMessageButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F048B51C1C8527CE00277E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F048B5051C8527CE00277E04 /* QQMessageButton */;
+			targetProxy = F048B51B1C8527CE00277E04 /* PBXContainerItemProxy */;
+		};
+		F048B5271C8527CE00277E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F048B5051C8527CE00277E04 /* QQMessageButton */;
+			targetProxy = F048B5261C8527CE00277E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F048B50D1C8527CE00277E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F048B50E1C8527CE00277E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F048B5121C8527CE00277E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F048B5131C8527CE00277E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F048B52C1C8527CE00277E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F048B52D1C8527CE00277E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F048B52F1C8527CE00277E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQMessageButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.imwork.wanhmr.QQMessageButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F048B5301C8527CE00277E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQMessageButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.imwork.wanhmr.QQMessageButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F048B5321C8527CE00277E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQMessageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.imwork.wanhmr.QQMessageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMessageButton.app/QQMessageButton";
+			};
+			name = Debug;
+		};
+		F048B5331C8527CE00277E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQMessageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.imwork.wanhmr.QQMessageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMessageButton.app/QQMessageButton";
+			};
+			name = Release;
+		};
+		F048B5351C8527CE00277E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQMessageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.imwork.wanhmr.QQMessageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQMessageButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F048B5361C8527CE00277E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQMessageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.imwork.wanhmr.QQMessageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQMessageButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F048B5011C8527CE00277E04 /* Build configuration list for PBXProject "QQMessageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F048B52C1C8527CE00277E04 /* Debug */,
+				F048B52D1C8527CE00277E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F048B52E1C8527CE00277E04 /* Build configuration list for PBXNativeTarget "QQMessageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F048B52F1C8527CE00277E04 /* Debug */,
+				F048B5301C8527CE00277E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F048B5311C8527CE00277E04 /* Build configuration list for PBXNativeTarget "QQMessageButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F048B5321C8527CE00277E04 /* Debug */,
+				F048B5331C8527CE00277E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F048B5341C8527CE00277E04 /* Build configuration list for PBXNativeTarget "QQMessageButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F048B5351C8527CE00277E04 /* Debug */,
+				F048B5361C8527CE00277E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F048B4FE1C8527CE00277E04 /* Project object */;
+}
