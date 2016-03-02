@@ -119,8 +119,15 @@ class QQMessageButton: UIButton {
             self.center = changPoint
             
             let currentDistance = pointToPointDistanceWithPoint1((smallCircleView?.center)!, point2: self.center)
-            let scale1 = 0.4 + 0.6 * ((maxDistance! - currentDistance) / maxDistance!)
-            let scale2 = 0.6 + 0.4 * ((maxDistance! - currentDistance) / maxDistance!)
+            var scale1: CGFloat = 0
+            var scale2: CGFloat = 0
+            if currentDistance <= maxDistance {
+                scale1 = 0.4 + 0.6 * ((maxDistance! - currentDistance) / maxDistance!)
+                scale2 = 0.6 + 0.4 * ((maxDistance! - currentDistance) / maxDistance!)
+            }else {
+                scale1 = 0.4
+                scale2 = 0.6
+            }
             
             let smallCircleViewWH = firstSmallCircleViewWH! * scale1
             smallCircleView?.size = CGSizeMake(smallCircleViewWH, smallCircleViewWH)
